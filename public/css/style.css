@@ -1,0 +1,1243 @@
+.navigation {
+    background-color: #ffffff;
+    border: none;
+    z-index: 1000;
+   
+}
+.nav-logo{
+    width:7%;
+    margin:1.5%;
+    padding:0;
+    float: left;
+    z-index: 1000;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    padding:1em;
+    font-style:"DM Sans",sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-right: 4%;
+    z-index: 1000;
+
+}
+.nav-elements li{
+    margin-left:30%;
+    margin-top: 2%;
+    z-index: 1000;
+}
+a{
+    color:black;
+    margin-left:10%;
+    margin-top: 1%;
+    z-index: 1000;
+}
+#login{
+    cursor: pointer;
+}
+a:hover{
+    color:black;
+    text-decoration:none
+
+}
+body{
+    margin:0;
+    padding:0;
+    left:0 ;
+    scroll-behavior: smooth;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+  }
+
+.first-jumbotron{
+    padding-top: 1%;
+    padding-bottom:5%;
+    border: none;
+    margin:0;
+}
+
+.background-1{
+    background:url('../Assets/pic1.png');
+    height: 75vh;
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border: none;
+    margin: 0;
+    padding: 0;
+ 
+
+}
+.background-1-title{
+    
+    background-image: linear-gradient(#34b65b, #34b6bf);
+}
+  
+.background-1-text{
+    font-family: "Heebo",serif;
+    font-weight:800;
+    font-size:3.8vw;
+    margin:4%
+
+}    
+.background-1-subtext{
+    font-family: "DM Sans",serif;
+    margin: 5%;
+    font-size:1.5vw;
+    width: 90%;
+
+} 
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .intro-logo{
+      width:40%
+  }
+  .slider {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    background: black;
+    overflow: hidden;
+    
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+    padding-top: 10%;
+  }
+  
+.second-jumbotron{
+    padding-top:25%;
+    border: none;
+    margin:0;
+    padding:0;
+
+}
+
+.background-2{
+    background:url('../Assets/pic1.png');
+    height: 80vh;
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border: none;
+    margin: 0;
+    padding: 0;
+ 
+
+}
+.background-2-title{
+    
+    background-color:#ffffff;
+    margin:0;
+    padding-top:8%;
+}
+  
+.background-2-text{
+    font-family: "Heebo",serif;
+    font-weight:800;
+    font-size:4.2vw;
+    margin:4%
+
+}    
+.background-2-subtext{
+    font-family: "DM Sans",serif;
+    margin: 4%;
+    font-size:1.4vw;
+    width: 80%;
+    text-align: justify;
+
+
+} 
+.background-2-image{
+    width: 80%;
+    padding-top:20%;
+    margin:10%
+}
+.third-jumbotron{
+    padding-top:25%;
+    border: none;
+    margin:0;
+    padding:0;
+
+}
+
+.background-3-title{
+    
+    background-color:#ffffff;
+    margin:0;
+    padding-top:10%;
+}
+  
+.background-3-text{
+    font-family: "Heebo",serif;
+    font-weight:800;
+    font-size:4.2vw;
+    margin:4%
+
+}    
+.background-3-subtext{
+    font-family: "DM Sans",serif;
+    margin: 4%;
+    font-size:1.4vw;
+    width: 85%;
+    text-align: justify;
+
+
+} 
+.background-3-image{
+    width: 65%;
+    padding-top:6%;
+    margin-left:6%
+}
+.third-jumbotron{
+    padding-top:25%;
+    border: none;
+    margin:0;
+    padding:0;
+
+}
+
+.background-4-title{
+    
+    background-color:#ffffff;
+    margin:0;
+    padding-top:10%;
+}
+  
+.background-4-text{
+    font-family: "Heebo",serif;
+    font-weight:800;
+    font-size:4.2vw;
+    margin:4%
+
+}    
+.background-4-subtext{
+    font-family: "DM Sans",serif;
+    margin: 4%;
+    font-size:1.4vw;
+    width: 80%;
+    text-align: justify;
+
+
+} 
+.background-4-image{
+    width: 90%;
+    padding-top:16%;
+    margin-left:6%
+}
+.fifth-jumbotron{
+    padding-bottom:10%;
+}
+.os-logos{
+    width: 50%;
+    padding-top:10%;
+
+}
+.background-5-title{
+    
+    background-color:#ffffff;
+    margin:0;
+}
+  
+.background-5-text{
+    font-family: "Heebo",serif;
+    font-weight:800;
+    font-size:3.8vw;
+    margin:4%
+
+}    
+.background-5-subtext{
+    font-family: "DM Sans",serif;
+    margin: 4%;
+    font-size:1.4vw;
+    width: 80%;
+
+
+} 
+.download-button{
+    font-family: "Heebo",serif;
+    font-size:1.4vw;
+    width: 30%;
+    border:10% solid #25afa4;
+}
+.footer {
+    background-color: rgb(230, 230, 230);
+    padding: 4%;
+    font-family: "DM Sans",serif;
+
+}.white-logo{
+    width:40%;
+}
+
+
+.footer-elements {
+    list-style: none;
+    padding: 2%;
+    
+}
+
+.footer-elements li {
+    margin-top: 2%;
+
+}
+
+.footer-elements-2 {
+    border-left: 2px solid #0000;
+}
+
+.footer-elements-2 li {
+    list-style: none;
+    margin-top: 4%;
+    border-left: 10px solid #0000;
+}
+
+.footer-icons {
+    width: 15%;
+    margin-top:2%;
+    float:left;
+    margin-left:10%;
+}
+.login-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-content: center;
+    justify-content: center;
+    margin:0;
+    background-color:rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    padding:2%
+
+}
+.login-container{
+    background-color:rgb(233, 233, 233);
+    margin:0;
+    opacity: 1;
+    padding:5%;
+    width:35%;
+  
+    
+}
+.login-logo{
+    width:40%;
+    padding:5%;
+
+}
+.login-close{
+    width:10%;
+    top:15px;
+    right:15px;
+    bottom:0;
+    padding:2%;
+    cursor: pointer;
+}
+.login-label{
+    font-family: "Heebo",serif;
+    font-weight:none;
+
+
+
+}
+.login-text{
+    border: none;
+    width:100%;
+    padding:4%;
+    margin-bottom: 5%;
+    font-family: "DM Sans",sans-serif;
+   
+}
+.login-submit{
+    border: none;
+    width:100%;
+    padding:2%; 
+    background-color: #25afa4
+}
+
+@media only screen and (max-width: 800px){
+    .navigation {
+        /* position: sticky; */
+        z-index: 1000;
+    }
+    .nav-logo{
+        width:20%;
+        padding:0;
+        margin-left:40%;
+        
+    }
+
+    .nav-elements {
+        position: fixed;
+        /* padding:2em; */
+        height: 100vh;
+        display: flex;
+        margin: 0;
+        flex-direction:column;
+        justify-content:flex-start;
+        font-size: 5vw;
+        overflow: hidden;
+        background-color: white;
+        transform: translateX(-100%);
+        transition: 0.5s ease-in-out;
+        z-index: 1;
+        width: 100%;
+        
+
+
+    }
+    .nav-elements li{
+        
+        margin: 20%;
+    }
+    a{
+        color:black;
+    }
+
+    .burger {
+        display: block;
+        position: fixed;
+        padding:0;
+        cursor: pointer;
+        z-index: 1000;
+        top:0;
+        margin-top:10%;
+        margin-left: 2%;
+
+    }
+
+    .line {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+
+
+    .active {
+        transform: translateX(0);
+
+    }
+    .sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+      }
+    
+    .first-jumbotron{
+        padding-top: 20%;
+        padding-bottom:5%;
+        border: none;
+        margin:0;
+    }
+    
+    .background-1{
+        background:url('../Assets/pic1.png');
+        height:50vh;
+        background-position: center ; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        margin: 0;
+        padding: 0;
+     
+    
+    }
+    .background-1-title{
+        
+        background-image: linear-gradient(#34b65b, #34b6bf);
+    }
+      
+    .background-1-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:10vw;
+        margin:4%
+    
+    }    
+    .background-1-subtext{
+        font-family: "DM Sans",serif;
+        margin: 5%;
+        font-size:4vw;
+        width: 90%;
+    
+    } 
+    .intro {
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+      .intro-logo{
+          width:40%
+      }
+      .slider {
+        background: rgb(97, 105, 109);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+      }
+      
+      .intro-text {
+        color: rgb(233, 233, 233);
+        font-family: "Heebo", sans-serif;
+        font-size: 3rem;
+      }
+      
+      .hide {
+        background: black;
+        overflow: hidden;
+        
+      }
+      
+      .hide span {
+        transform: translateY(100%);
+        display: inline-block;
+        padding-top: 10%;
+      }
+      
+    .second-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    
+    .background-2{
+        background:url('../Assets/pic1.png');
+        height: 80vh;
+        background-position: center ; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        margin: 0;
+        padding: 0;
+     
+    
+    }
+    .background-2-title{
+        
+        background-color:#ffffff;
+        margin:0;
+        padding-top:8%;
+    }
+      
+    .background-2-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:10vw;
+        margin:4%
+    
+    }    
+    .background-2-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 80%;
+        text-align: justify;
+    
+    
+    } 
+    .background-2-image{
+        width: 70%;
+        padding-top:20%;
+        margin:10%
+    }
+    .third-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    
+    .background-3-title{
+        
+        background-color:#ffffff;
+        margin:0;
+        padding-top:10%;
+    }
+      
+    .background-3-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:10vw;
+        margin:4%
+    
+    }    
+    .background-3-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 85%;
+        text-align: justify;
+    
+    
+    } 
+    .background-3-image{
+        width: 65%;
+        padding-top:6%;
+        margin-left:6%
+    }
+    .third-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    
+    .background-4-title{
+        
+        background-color:#ffffff;
+        margin:0;
+        padding-top:10%;
+    }
+      
+    .background-4-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:10vw;
+        margin:4%
+    
+    }    
+    .background-4-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 80%;
+        text-align: justify;
+    
+    
+    } 
+    .background-4-image{
+        width: 90%;
+        padding-top:16%;
+        margin-left:6%
+    }
+    .fifth-jumbotron{
+        padding-bottom:10%;
+    }
+    .os-logos{
+        width: 80%;
+        padding-top:15%;
+    
+    }
+    .background-5-title{
+        
+        background-color:#ffffff;
+        margin:0;
+    }
+      
+    .background-5-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:10vw;
+        margin:4%
+    
+    }    
+    .background-5-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 80%;
+    
+    
+    } 
+    .download-button{
+        font-family: "Heebo",serif;
+        font-size:4vw;
+        width: 30%;
+        border:10% solid #25afa4;
+    }
+    .footer {
+        background-color: rgb(230, 230, 230);
+        padding: 4%;
+        font-family: "DM Sans",serif;
+    
+    }.white-logo{
+        width:15%;
+        margin: 2%;
+    }
+    
+    
+    .footer-elements {
+        list-style: none;
+        padding: 2%;
+        
+    }
+    
+    .footer-elements li {
+        margin-top: 2%;
+    
+    }
+    
+    .footer-elements-2 {
+        border-left: 2px solid #0000;
+    }
+    
+    .footer-elements-2 li {
+        list-style: none;
+        margin-top: 4%;
+        border-left: 10px solid #0000;
+    }
+    
+    .footer-icons {
+        width: 6%;
+        margin-top:2%;
+        float:left;
+        margin-left:18%;
+    }
+    .login-popup{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        align-content: center;
+        justify-content: center;
+        margin:0;
+        background-color:rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+        padding:5%
+    
+    }
+    .login-container{
+        background-color:rgb(233, 233, 233);
+        margin:0;
+        opacity: 1;
+        padding:5%;
+        width:70%;
+      
+        
+    }
+    .login-logo{
+        width:50%;
+        padding:5%;
+    
+    }
+    .login-close{
+        width:10%;
+        top:15px;
+        right:15px;
+        bottom:0;
+        padding:2%;
+        cursor: pointer;
+    }
+    .login-label{
+        font-family: "Heebo",serif;
+        font-weight:none;
+    
+    
+    
+    }
+    .login-text{
+        border: none;
+        width:100%;
+        padding:4%;
+        margin-bottom: 5%;
+        font-family: "DM Sans",sans-serif;
+       
+    }
+    .login-submit{
+        border: none;
+        width:100%;
+        padding:2%; 
+        background-color: #25afa4
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navigation {
+        /* position: sticky; */
+        z-index: 1000;
+        float: left;
+    }
+    .nav-logo{
+        width:15%;
+        margin:none;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        padding:0;
+        margin-left:42%;
+        
+    }
+
+    .nav-elements {
+        position: fixed;
+        /* padding:2em; */
+        height: 100vh;
+        display: flex;
+        margin: 0;
+        flex-direction:column;
+        justify-content:flex-start;
+        font-size: 5vw;
+        overflow: hidden;
+        background-color: white;
+        transform: translateX(-100%);
+        transition: 0.5s ease-in-out;
+        z-index: 1;
+        width: 100%;
+        
+
+
+    }
+    .nav-elements li{
+        
+        margin: 20%;
+    }
+    a{
+        color:black;
+    }
+
+    .burger {
+        display: block;
+        position: fixed;
+        padding:0;
+        cursor: pointer;
+        z-index: 1000;
+        top:0;
+        margin-top:10%;
+        margin-left: 2%;
+
+    }
+
+    .line {
+        width: 18px;
+        height: 2px;
+        background-color: black;
+        margin: 4px;
+        cursor: pointer;
+    }
+
+
+
+    .active {
+        transform: translateX(0);
+
+    }
+    .sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+      }
+    
+    .background-1{
+        background:url('../Assets/pic1.png');
+        height: 45vh;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        float: none;
+
+    
+    }
+    .first-jumbotron{
+        padding-bottom: 5%;
+        border: none;
+        background-color:white;
+        margin-top: 5%;
+        float: none;
+    }
+    .background-1-title{
+    
+        background-image: linear-gradient(rgb(52, 182, 91), rgb(52, 182, 191));
+        padding-bottom: 8%;
+    }
+      
+    .background-1-text{
+        font-family: "Heebo",serif;
+        font-weight:bold;
+        font-size:8.8vw;
+        margin:4%
+    
+    }    
+    .background-1-subtext{
+        font-family: "DM Sans",serif;
+        margin: 5%;
+        font-size:4vw;
+        width: 95%;
+    
+    } 
+    .intro {
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-logo{
+        width:70%
+    }
+    .slider {
+        background: rgb(97, 105, 109);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateY(100%);
+      }
+      
+      .intro-text {
+        color: rgb(233, 233, 233);
+        font-family: "Heebo", sans-serif;
+        position: absolute;
+        padding-top: 4%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        font-size: 4vw;
+      }
+      
+      .hide {
+        background: black;
+        overflow: hidden;
+        padding-top: 20%;
+      }
+      
+      .hide span {
+        transform: translateY(100%);
+        display: inline-block;
+      }
+    .second-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    .second-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    
+    .background-2{
+        background:url('../Assets/pic1.png');
+        height: 80vh;
+        background-position: center ; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        margin: 0;
+        padding: 0;
+     
+    
+    }
+    .background-2-title{
+        
+        background-color:#ffffff;
+        margin:0;
+        padding-top:8%;
+    }
+      
+    .background-2-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:9vw;
+        margin:4%
+    
+    }    
+    .background-2-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 92%;
+        text-align: justify;
+    
+    
+    } 
+    .background-2-image{
+        width: 75%;
+        padding-top:15%;
+        margin:10%
+    }
+    
+    .third-jumbotron{
+        padding-top:25%;
+        border: none;
+        margin:0;
+        padding:0;
+    
+    }
+    
+    .background-3{
+        background:url('../Assets/pic1.png');
+        height: 80vh;
+        background-position: center ; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        border: none;
+        margin: 0;
+        padding: 0;
+     
+    
+    }
+    .background-3-title{
+        
+        background-color:#ffffff;
+        margin:0;
+        padding-top:10%;
+    }
+      
+    .background-3-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:8vw;
+        margin:4%
+    
+    }    
+    .background-3-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 92%;
+        text-align: justify;
+    
+    
+    
+    } 
+    .background-3-image{
+        width: 65%;
+        padding-top:30%;
+        margin-left:6%
+    }
+    .background-4-title{
+    
+        background-color:#ffffff;
+        margin:0;
+        padding-top:10%;
+    }
+      
+    .background-4-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:8vw;
+        margin:4%
+    
+    }    
+    .background-4-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 92%;
+        text-align: justify;
+    
+    
+    
+    } 
+    .background-4-image{
+        width: 90%;
+        padding-top:16%;
+        margin-left:6%
+    }
+    .fifth-jumbotron{
+       padding-top:20%;
+        padding-bottom:20%;
+    }
+    .os-logos{
+        width: 80%;
+        padding-top:10%;
+    
+    }
+    .background-5-title{
+        
+        background-color:#ffffff;
+        margin:0;
+    }
+      
+    .background-5-text{
+        font-family: "Heebo",serif;
+        font-weight:800;
+        font-size:8vw;
+        margin:4%
+    
+    }    
+    .background-5-subtext{
+        font-family: "DM Sans",serif;
+        margin: 4%;
+        font-size:4vw;
+        width: 80%;
+    
+    
+    } 
+    .download-button{
+        font-family: "Heebo",serif;
+        font-size:6vw;
+        width: 60%;
+        border:10% solid #25afa4;
+    }
+    .footer {
+        background-color: rgb(230, 230, 230);
+        padding-top:4%;
+        padding-bottom:4%;
+        font-family: "DM Sans",serif;
+        font-size:3.5vw;
+        padding:0;
+    
+    }.white-logo{
+        width:25%;
+        /* padding:10%; */
+        margin:2%
+        
+    }
+    
+    
+    .footer-elements {
+        list-style: none;
+        padding: 2%;
+        
+    }
+    
+    .footer-elements li {
+        margin-top: 2%;
+    
+    }
+    
+    .footer-elements-2 {
+        border-left: 2px solid #0000;
+    }
+    
+    .footer-elements-2 li {
+        list-style: none;
+        margin-top: 4%;
+        border-left: 10px solid #0000;
+    }
+    
+    .footer-icons {
+        padding-bottom:4%;
+        width:10%;
+        float:left;
+        margin-left:10%;
+    }
+    .login-popup{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        align-content: center;
+        justify-content: center;
+        margin:0;
+        background-color:rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+    
+    }
+    .login-container{
+        background-color:rgb(233, 233, 233);
+        margin:0;
+        opacity: 1;
+        width: 120%;
+      
+        
+    }
+    .login-logo{
+        width:45%;
+        padding:4%;
+    
+    }
+    .login-close{
+        width:10%;
+        top:15px;
+        right:15px;
+        bottom:0;
+        padding:2%;
+        cursor: pointer;
+    }
+    .login-label{
+        font-family: "Heebo",serif;
+        font-weight:none;
+        font-size:4.5vw ;
+        margin-top: 10%;
+    
+    
+    
+    }
+    .login-text{
+        border: none;
+        width:100%;
+        padding:2%;
+        margin-bottom: 5%;
+        font-family: "DM Sans",sans-serif;
+        font-size:4.5vw;
+       
+    }
+    .login-submit{
+        border: none;
+        width:100%;
+        padding:1%; 
+        background-color: #25afa4;
+        color:white;
+        font-family: "DM Sans",sans-serif;
+        font-size:4.5vw;
+    }
+    
+    
+}
